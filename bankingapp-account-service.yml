@@ -30,7 +30,7 @@ eureka:
 bankingapp:
   kafka:
     topic:
-      fund-transfers: status
+      fund-transfers: fund-transfers-status
 
 management:
   endpoints:
