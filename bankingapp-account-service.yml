@@ -15,7 +15,7 @@ spring:
 #      console:
 #        enabled: true
   kafka:
-    bootstrap-servers: localhost:8091
+    bootstrap-servers: localhost:9092
 
 server:
   port: 9091
