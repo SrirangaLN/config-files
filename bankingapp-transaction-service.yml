@@ -1,6 +1,6 @@
 spring:
   application:
-    name: bankingapp-account-service
+    name: bankingapp-transaction-service
   datasource:
     url: jdbc:postgresql://localhost:5432/bankingapp-transaction-service
     username: postgres
