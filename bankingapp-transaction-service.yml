@@ -1,10 +1,12 @@
 spring:
   application:
     name: bankingapp-transaction-service
+  
   datasource:
     url: jdbc:postgresql://localhost:5432/bankingapp-transaction-service
     username: postgres
     password: postgres
+  
   kafka:
     bootstrap-servers: localhost:9092
 
@@ -12,8 +14,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
-    format_sql: true
+      show-sql: true
+      format_sql: true
   h2:
     console:
       enabled: true
