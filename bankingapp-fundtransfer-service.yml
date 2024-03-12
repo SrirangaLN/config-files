@@ -18,7 +18,7 @@ server:
 bankingapp:
   kafka:
     topic:
-      fund-transfers: fund-transfers
+      fund-transfers: fund-transfers-status
       transaction: transactions
 
 eureka:
